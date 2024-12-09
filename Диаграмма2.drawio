@@ -1,0 +1,97 @@
+<mxfile>
+  <diagram name="Booking Process Diagram">
+    <mxGraphModel dx="1300" dy="1300" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <!-- Swimlanes -->
+        <mxCell id="2" value="Client" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="150" height="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="System" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="0" width="150" height="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Payment Gateway" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="0" width="150" height="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Venue Admin" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="0" width="150" height="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Contractors" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="0" width="150" height="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Manager" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="0" width="150" height="1000" as="geometry" />
+        </mxCell>
+        <!-- Actions -->
+        <mxCell id="8" value="Request Venue Availability" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+          <mxGeometry x="20" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Check Dates" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+          <mxGeometry x="20" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Return Availability" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="5">
+          <mxGeometry x="20" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Notify Client" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+          <mxGeometry x="20" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="Confirm Booking" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+          <mxGeometry x="20" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="Request Payment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+          <mxGeometry x="20" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="Payment Successful" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4">
+          <mxGeometry x="20" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="Notify Admin" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="5">
+          <mxGeometry x="20" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="Prepare Tasks" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="5">
+          <mxGeometry x="20" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="Complete Tasks" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6">
+          <mxGeometry x="20" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="Request Feedback" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+          <mxGeometry x="20" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="Send Feedback Report" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+          <mxGeometry x="20" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <!-- Connections -->
+        <mxCell id="20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" source="8" target="9" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" source="9" target="10" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" source="10" target="11" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" source="12" target="13" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" source="13" target="14" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" source="14" target="15" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" source="15" target="16" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" source="16" target="17" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" source="17" target="18" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" source="18" target="19" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

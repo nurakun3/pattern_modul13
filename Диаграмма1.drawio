@@ -1,0 +1,97 @@
+<mxfile>
+  <diagram name="Activity Diagram">
+    <mxGraphModel dx="1300" dy="1300" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <!-- Swimlanes -->
+        <mxCell id="2" value="Department Head" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="200" height="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="HR Department" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="0" width="200" height="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Candidate" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="0" width="200" height="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="IT Department" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="0" width="200" height="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="System" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="0" width="200" height="1200" as="geometry" />
+        </mxCell>
+        <!-- Actions -->
+        <mxCell id="7" value="Create Job Request" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+          <mxGeometry x="20" y="40" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Review Job Request" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+          <mxGeometry x="20" y="120" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Publish Job Posting" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+          <mxGeometry x="20" y="200" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Submit Application" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4">
+          <mxGeometry x="20" y="280" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Filter Applications" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+          <mxGeometry x="20" y="360" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="Primary Interview" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+          <mxGeometry x="20" y="440" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="Technical Interview" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+          <mxGeometry x="20" y="520" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="Offer Letter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+          <mxGeometry x="20" y="600" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="Confirm Offer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4">
+          <mxGeometry x="20" y="680" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="Add Employee to Database" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6">
+          <mxGeometry x="20" y="760" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="Notify IT Department" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+          <mxGeometry x="20" y="840" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="Setup Workspace" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="5">
+          <mxGeometry x="20" y="920" width="160" height="60" as="geometry" />
+        </mxCell>
+        <!-- Connections -->
+        <mxCell id="19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" source="7" target="8" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" source="8" target="9" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" source="9" target="10" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" source="10" target="11" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" source="11" target="12" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" source="12" target="13" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" source="13" target="14" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" source="14" target="15" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" source="15" target="16" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" source="16" target="17" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" source="17" target="18" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
